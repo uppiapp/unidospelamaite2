@@ -345,8 +345,8 @@ export function CampaignPage() {
 
       {donationStep === 'loading' && (
         <div className="relative flex flex-col items-center py-8 text-center">
-          <span className="size-12 animate-spin rounded-full border-4 border-muted border-t-primary" role="status" aria-label="Gerando PIX com Paradise"/>
-          <p className="mt-4 font-extrabold text-foreground">Gerando cobrança PIX via Paradise...</p>
+          <span className="size-12 animate-spin rounded-full border-4 border-muted border-t-primary" role="status" aria-label="Gerando cobrança PIX"/>
+          <p className="mt-4 font-extrabold text-foreground">Gerando cobrança PIX...</p>
           <p className="mt-1 text-sm text-muted-foreground">Por favor, aguarde alguns instantes.</p>
         </div>
       )}
